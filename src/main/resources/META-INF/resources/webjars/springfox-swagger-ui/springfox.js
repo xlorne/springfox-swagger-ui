@@ -85,6 +85,24 @@ $(function() {
     }
   });
 
+  $(document).on("click",".operation-params .markdown",function(){
+      var val = $(this).text();
+
+      var tr = $(this).closest("tr");
+      var td = tr.children();
+
+      var inputs =  $(td).find("input");
+      if(inputs.length>0){
+          $(inputs[0]).val(val);
+      }
+
+      var textareas =  $(td).find("textarea");
+      if(textareas.length>0){
+          $(textareas[0]).val(val);
+      }
+  });
+
+
   $('#select_baseUrl').change(function() {
     window.swaggerUi.headerView.trigger('update-swagger-ui', {
       url: $('#select_baseUrl').val()

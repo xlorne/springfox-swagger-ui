@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springfox-swagger-ui
+Built-With: gradle-3.1, groovy-2.4.7
+Implementation-Version: 2.6.1
+SwaggerUi-Version: 2.2.6
+Built-By: d_krishnan
+Build-Time: 2016-11-06T19:07:57-0600
+Created-By: 1.8.0_77 (Oracle Corporation)
+Built-On: ISDV161716L.fios-router.home/192.168.1.163
+
